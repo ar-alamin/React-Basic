@@ -1,8 +1,11 @@
 import React from 'react'
+import Control from './components/function/Control'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <Control />
+    </>
   )
 }
 
