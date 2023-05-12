@@ -1,10 +1,10 @@
 import React from 'react'
-import Clock from './components/class/Clock'
+import Clocks from './state/Clocks'
 
 const App = () => {
   return (
     <>
-      <Clock locale='bn-BD' />
+      <Clocks />
     </>
   )
 }
