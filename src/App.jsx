@@ -1,10 +1,10 @@
 import React from 'react'
-import Control from './components/function/Control'
+import Clock from './components/class/Clock'
 
 const App = () => {
   return (
     <>
-      <Control />
+      <Clock locale='bn-BD' />
     </>
   )
 }
