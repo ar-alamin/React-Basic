@@ -1,0 +1,16 @@
+.container{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(150, 181, 238);
+    border-radius: 5px;
+}
+
+button {
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

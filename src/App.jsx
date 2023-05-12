@@ -1,10 +1,10 @@
 import React from 'react'
-import State from './state/State'
+import EventHandling from './events/EventHandling'
 
 const App = () => {
   return (
     <>
-      <State />
+      <EventHandling />
     </>
   )
 }
