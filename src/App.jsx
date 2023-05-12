@@ -1,10 +1,10 @@
 import React from 'react'
-import Clocks from './state/Clocks'
+import State from './state/State'
 
 const App = () => {
   return (
     <>
-      <Clocks />
+      <State />
     </>
   )
 }
