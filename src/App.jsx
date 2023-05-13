@@ -1,10 +1,10 @@
 import React from 'react'
-import EventHandling from './events/EventHandling'
+import ConditionalRendering from './conditionalRendering/ConditionalRendering'
 
 const App = () => {
   return (
     <>
-      <EventHandling />
+      <ConditionalRendering />
     </>
   )
 }
