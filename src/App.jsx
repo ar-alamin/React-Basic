@@ -1,10 +1,10 @@
 import React from 'react'
-import Forms from './Forms/Forms'
+import Calculator from './liftingState/Calculator'
 
 const App = () => {
   return (
     <>
-      <Forms />
+      <Calculator />
     </>
   )
 }
