@@ -1,10 +1,11 @@
 import React from 'react'
-import Calculator from './liftingState/Calculator'
+import Control from './reactRenderProps/Control'
+
 
 const App = () => {
   return (
     <>
-      <Calculator />
+      <Control />
     </>
   )
 }
