@@ -1,10 +1,10 @@
 import React from 'react'
-import ConditionalRendering from './conditionalRendering/ConditionalRendering'
+import Forms from './Forms/Forms'
 
 const App = () => {
   return (
     <>
-      <ConditionalRendering />
+      <Forms />
     </>
   )
 }
