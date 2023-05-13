@@ -1,11 +1,11 @@
 import React from 'react'
-import Control from './reactRenderProps/Control'
+import Parent from './propsDriling/Parent'
 
 
 const App = () => {
   return (
     <>
-      <Control />
+      <Parent />
     </>
   )
 }
