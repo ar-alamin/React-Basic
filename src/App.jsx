@@ -1,10 +1,10 @@
 import React from 'react'
-import CompA from './Hooks/useContext/CompA'
+import Test from './Hooks/useEffect/Test'
 
 const App = () => {
   return (
     <>
-      <CompA /> 
+       <Test />
     </>
   )
 }
