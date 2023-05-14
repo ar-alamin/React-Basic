@@ -1,0 +1,8 @@
+.main {
+    width: 400px;
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}

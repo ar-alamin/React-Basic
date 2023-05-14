@@ -1,10 +1,10 @@
 import React from 'react'
-import Parents from './contextApi/Parents'
+import Todo from './Hooks/useState/Todo'
 
 const App = () => {
   return (
     <>
-      <Parents /> 
+      <Todo /> 
     </>
   )
 }
