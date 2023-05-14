@@ -1,11 +1,10 @@
 import React from 'react'
-import Parent from './propsDriling/Parent'
-
+import Parents from './contextApi/Parents'
 
 const App = () => {
   return (
     <>
-      <Parent />
+      <Parents /> 
     </>
   )
 }
