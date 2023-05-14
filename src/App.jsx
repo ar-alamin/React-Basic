@@ -1,10 +1,10 @@
 import React from 'react'
-import Todo from './Hooks/useState/Todo'
+import CompA from './Hooks/useContext/CompA'
 
 const App = () => {
   return (
     <>
-      <Todo /> 
+      <CompA /> 
     </>
   )
 }
