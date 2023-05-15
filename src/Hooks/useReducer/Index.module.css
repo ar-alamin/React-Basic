@@ -1,0 +1,36 @@
+.main{
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.count{
+    width: 220px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.counter{
+    width: 220px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px; 
+    background-color: deepskyblue;
+    box-shadow: 3px 3px 3px gray;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}

@@ -1,10 +1,10 @@
 import React from 'react'
-import Test from './Hooks/useEffect/Test'
+import Index from './Hooks/useReducer/Index'
 
 const App = () => {
   return (
     <>
-       <Test />
+       <Index />
     </>
   )
 }
