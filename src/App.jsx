@@ -1,10 +1,10 @@
 import React from 'react'
-import Index from './Hooks/useReducer/Index'
+import Counter from './Hooks/useMemo/Counter'
 
 const App = () => {
   return (
     <>
-       <Index />
+       <Counter />
     </>
   )
 }
