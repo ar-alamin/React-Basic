@@ -1,10 +1,10 @@
 import React from 'react'
-import Counter from './Hooks/useMemo/Counter'
+import UseCallback from './Hooks/useCallback/UseCallback'
 
 const App = () => {
   return (
     <>
-       <Counter />
+       <UseCallback />
     </>
   )
 }
