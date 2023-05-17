@@ -1,10 +1,12 @@
 import React from 'react'
-import Count from './Hooks/custom/Count'
+import ClickCounter from './HOC/ClickCounter'
+import HoverCounter from './HOC/HoverCounter'
 
 const App = () => {
   return (
     <>
-       <Count />
+      <ClickCounter />
+      <HoverCounter />
     </>
   )
 }
