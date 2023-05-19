@@ -8,12 +8,14 @@ import ErrorPage from './Router/ErrorPage'
 const App = () => {
   return (
     <>
-      <NavBar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        {/* <Route path='*' element={<ErrorPage />} /> */}
-        <Route path='*' element={<Navigate to='/' />} />
+        <Route path='/' element={<NavBar />}>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+        </Route>
+        
+        <Route path='*' element={<ErrorPage />} />
+        {/* <Route path='*' element={<Navigate to='/' />} /> */}
       </Routes>
     </>
   )
