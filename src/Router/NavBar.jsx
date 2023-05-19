@@ -1,12 +1,13 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 
 function NavBar() {
   return (
     <div>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
+            <li><Link to='/' >Home</Link></li>
+            <li><Link to='/about' >About</Link></li>
+            <li><Link to='/posts/js' >Posts</Link></li>           
         </ul>
         <Outlet />
     </div>

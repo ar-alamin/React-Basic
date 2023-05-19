@@ -4,6 +4,7 @@ import Home from './Router/Home'
 import About from './Router/About'
 import NavBar from './Router/NavBar'
 import ErrorPage from './Router/ErrorPage'
+import Posts from './Router/Posts'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path='/' element={<NavBar />}>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/posts/:catagory' element={<Posts />} />
         </Route>
         
         <Route path='*' element={<ErrorPage />} />
